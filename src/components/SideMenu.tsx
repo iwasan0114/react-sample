@@ -3,8 +3,9 @@ import { useState } from "react";
 import NavLink from "./NavLink";
 
 const menuItems = [
-  { href: "/", label: "ホーム" },
-  { href: "/validation", label: "入力チェック" }
+  { href: "/", label: "Home" },
+  { href: "/validation", label: "Validation" },
+  { href: "/table", label: "Table" }
 ];
 
 const SideMenu: React.FC = () => {
