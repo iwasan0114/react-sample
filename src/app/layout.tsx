@@ -20,7 +20,7 @@ export default function RootLayout({
           <div className="grid-item col-span-2">
             <SideMenu />
           </div>
-          <div className="grid-item col-span-10">
+          <div className="grid-item col-span-10 m-4">
             {children}
           </div>
         </div>
