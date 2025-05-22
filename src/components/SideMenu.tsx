@@ -5,7 +5,8 @@ import NavLink from "./NavLink";
 const menuItems = [
   { href: "/", label: "Home" },
   { href: "/validation", label: "Validation" },
-  { href: "/table", label: "Table" }
+  { href: "/table", label: "Table" },
+  { href: "/modalPage", label: "Modal" }
 ];
 
 const SideMenu: React.FC = () => {
